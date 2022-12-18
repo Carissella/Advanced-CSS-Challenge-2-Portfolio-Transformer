@@ -10,10 +10,7 @@ header {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
+    text-align: center;
 }
 
 nav ul li {
@@ -38,9 +35,20 @@ section h4 {
 }
 
 section p, h4, ul {
-    color: rgb(246, 50, 135);
+    color: rgb(151, 247, 8);
     list-style: none;
     
+}
+
+
+form, input, select, textarea, button {
+    text-align: center;
+    border: solid 5px rgb(246, 50, 135);
+    color: rgb(151, 247, 8);
+}
+
+form ::placeholder {
+    color: rgb(151, 247, 8);
 }
 
 footer {
